@@ -1,0 +1,101 @@
+id,text,created_at,lang,source,likes,retweets,replies,author_name,author_username,author_verified,hashtags,technical_richness
+1000,Exploring the new features in #NLP.,2025-01-29T11:44:45,en,Twitter for iPhone,177,78,31,Alice,charlie_ai,False,Cloud,medium
+1001,Exploring the new features in #Python.,2025-06-12T15:29:44,en,Twitter for Android,64,43,9,Hank,bob_coder,True,"Cloud, Startups",medium
+1002,Here's a cool trick with #SQL.,2025-01-19T20:40:33,en,Twitter Web App,0,18,19,Hank,emma_ds,True,Python,medium
+1003,Getting started with #Linux. Any tips?,2025-02-18T02:18:07,en,Twitter for Android,195,85,32,Bob,ivy_nlp,True,"MachineLearning, CyberSecurity",medium
+1004,Just finished a project on #Python!,2025-05-08T05:25:00,en,Twitter for Android,103,48,17,Jake,david_ml,False,,medium
+1005,Is anyone else working with #Blockchain today?,2025-07-01T13:15:29,en,Twitter for Android,150,61,2,Jake,ivy_nlp,False,"Coding, Tech, Python",low
+1006,Loving the power of #Cloud in my workflow.,2025-04-12T16:41:30,en,Twitter Web App,83,67,41,Emma,bob_coder,True,,low
+1007,Exploring the new features in #Python.,2025-04-14T19:12:02,en,Twitter Web App,91,94,6,Bob,ivy_nlp,False,"CyberSecurity, Python, AI",medium
+1008,Loving the power of #SQL in my workflow.,2025-03-17T11:11:24,en,Twitter Web App,30,2,21,Ivy,charlie_ai,True,"DevLife, CyberSecurity, Coding",medium
+1009,Exploring the new features in #Cloud.,2025-01-15T10:15:05,en,Twitter Web App,191,65,39,Emma,hank_cloud,False,"Cloud, CyberSecurity, Cloud",low
+1010,Getting started with #AI. Any tips?,2025-04-10T19:30:33,en,Twitter Web App,148,35,28,Bob,bob_coder,True,,medium
+1011,Exploring the new features in #SQL.,2025-04-07T22:17:12,en,Twitter Web App,98,17,3,Bob,emma_ds,False,"MachineLearning, AI",medium
+1012,Getting started with #Linux. Any tips?,2025-04-02T10:49:45,en,Twitter for iPhone,110,90,8,Grace,fay_code,False,"Tech, CyberSecurity, Python",medium
+1013,Best practices for using #SQL? Let's discuss.,2025-06-07T06:33:58,en,Twitter for Android,2,41,6,Jake,fay_code,False,Cloud,medium
+1014,A deep dive into #React.,2025-01-08T07:15:15,en,Twitter for Android,161,24,29,David,hank_cloud,False,"MachineLearning, CyberSecurity",low
+1015,Best practices for using #NLP? Let's discuss.,2025-06-07T04:08:36,en,Twitter Web App,160,44,22,Ivy,fay_code,False,,medium
+1016,Loving the power of #Linux in my workflow.,2025-03-28T13:51:01,en,Twitter Web App,77,51,43,Charlie,jake_dev,True,"Tech, Python",medium
+1017,Check out my latest blog post on #AI.,2025-05-16T02:08:53,en,Twitter for iPhone,173,95,48,Fay,hank_cloud,False,,medium
+1018,A deep dive into #NLP.,2025-06-18T16:24:40,en,Twitter for Android,102,11,17,Fay,hank_cloud,True,,medium
+1019,Getting started with #AI. Any tips?,2025-03-25T06:00:20,en,Twitter for iPhone,161,10,46,Bob,alice_dev,True,,medium
+1020,A deep dive into #Blockchain.,2025-06-05T22:16:21,en,Twitter for iPhone,4,50,27,Alice,bob_coder,False,"AI, Cloud",low
+1021,Loving the power of #React in my workflow.,2025-03-27T09:42:20,en,Twitter Web App,61,81,17,Bob,david_ml,True,,low
+1022,Exploring the new features in #SQL.,2025-01-28T06:52:59,en,Twitter Web App,170,86,13,Alice,grace_net,True,DevLife,medium
+1023,Getting started with #ML. Any tips?,2025-05-20T19:41:36,en,Twitter Web App,73,43,35,David,bob_coder,True,AI,medium
+1024,Loving the power of #Cloud in my workflow.,2025-06-04T18:39:43,en,Twitter for Android,181,45,31,Emma,bob_coder,True,"Tech, Tech, Cloud",low
+1025,Debugging in #Python is both fun and frustrating!,2025-05-07T09:04:42,en,Twitter for Android,59,70,18,Hank,emma_ds,False,"Python, CyberSecurity, DevLife",medium
+1026,Here's a cool trick with #SQL.,2025-05-14T13:01:13,en,Twitter for Android,68,13,26,Emma,jake_dev,True,"CyberSecurity, MachineLearning",medium
+1027,Is anyone else working with #Cloud today?,2025-04-24T16:43:19,en,Twitter for iPhone,195,9,35,Jake,jake_dev,True,"Tech, DataScience, AI",low
+1028,A deep dive into #AI.,2025-05-07T02:30:17,en,Twitter for iPhone,38,90,12,Hank,bob_coder,True,"Python, DataScience",medium
+1029,Here's a cool trick with #ML.,2025-01-06T13:19:41,en,Twitter for Android,76,67,20,Grace,emma_ds,True,AI,medium
+1030,Check out my latest blog post on #Blockchain.,2025-06-18T16:35:41,en,Twitter for iPhone,101,38,49,Charlie,bob_coder,True,AI,low
+1031,A deep dive into #ML.,2025-03-10T03:29:56,en,Twitter Web App,178,4,39,Ivy,david_ml,True,"DevLife, Python, AI",medium
+1032,Here's a cool trick with #ML.,2025-04-16T18:55:47,en,Twitter for iPhone,28,19,21,David,alice_dev,True,"DevLife, DevLife, Startups",medium
+1033,Is anyone else working with #Docker today?,2025-02-10T02:25:42,en,Twitter for Android,114,93,44,Emma,jake_dev,False,"Startups, DataScience, CyberSecurity",high
+1034,Just finished a project on #ML!,2025-05-17T16:25:00,en,Twitter for iPhone,190,11,1,Fay,ivy_nlp,False,,medium
+1035,Loving the power of #NLP in my workflow.,2025-02-09T14:07:28,en,Twitter Web App,8,3,50,Alice,fay_code,False,"DataScience, Python",medium
+1036,Check out my latest blog post on #AI.,2025-05-07T06:53:33,en,Twitter for iPhone,134,29,1,Hank,emma_ds,False,,medium
+1037,Check out my latest blog post on #Linux.,2025-04-03T22:23:33,en,Twitter for Android,189,38,1,Jake,hank_cloud,True,"Tech, DevLife",medium
+1038,Check out my latest blog post on #ML.,2025-02-18T19:08:20,en,Twitter Web App,106,87,29,Charlie,bob_coder,False,AI,medium
+1039,Is anyone else working with #SQL today?,2025-02-01T08:13:26,en,Twitter for Android,34,32,22,Hank,hank_cloud,False,"Cloud, Tech",medium
+1040,Loving the power of #Linux in my workflow.,2025-03-01T00:26:54,en,Twitter for iPhone,44,41,22,Fay,alice_dev,True,Startups,medium
+1041,Debugging in #AI is both fun and frustrating!,2025-04-29T12:48:52,en,Twitter Web App,11,40,21,Jake,bob_coder,False,"DataScience, Cloud, Python",medium
+1042,Is anyone else working with #Python today?,2025-04-06T23:40:58,en,Twitter Web App,83,93,31,Fay,david_ml,True,"DevLife, Tech",medium
+1043,Check out my latest blog post on #Cloud.,2025-03-18T20:04:17,en,Twitter for iPhone,124,13,22,Emma,hank_cloud,False,,low
+1044,Just finished a project on #React!,2025-05-22T10:42:17,en,Twitter for Android,154,11,26,Alice,ivy_nlp,True,CyberSecurity,medium
+1045,A deep dive into #React.,2025-01-03T23:02:57,en,Twitter for iPhone,138,80,26,Ivy,alice_dev,True,"Cloud, MachineLearning",low
+1046,Loving the power of #Cloud in my workflow.,2025-01-30T06:41:30,en,Twitter for Android,11,76,17,Grace,david_ml,True,AI,low
+1047,A deep dive into #ML.,2025-06-11T16:54:49,en,Twitter for iPhone,54,37,31,Hank,emma_ds,False,"Tech, DevLife, Cloud",medium
+1048,Just finished a project on #ML!,2025-03-04T19:52:04,en,Twitter Web App,64,77,24,Ivy,alice_dev,False,"DevLife, Startups",medium
+1049,Is anyone else working with #AI today?,2025-02-23T21:11:38,en,Twitter Web App,39,67,49,Alice,fay_code,True,AI,medium
+1050,Just finished a project on #Linux!,2025-05-11T08:43:12,en,Twitter for Android,133,44,11,Emma,david_ml,False,,medium
+1051,Best practices for using #Python? Let's discuss.,2025-04-24T11:56:58,en,Twitter for iPhone,191,43,47,David,hank_cloud,True,,medium
+1052,Exploring the new features in #Blockchain.,2025-05-26T03:25:44,en,Twitter Web App,11,75,9,Fay,bob_coder,True,"Tech, AI, MachineLearning",low
+1053,Just finished a project on #React!,2025-06-02T16:51:19,en,Twitter for iPhone,56,18,37,Hank,charlie_ai,True,,medium
+1054,A deep dive into #React.,2025-01-16T03:46:18,en,Twitter Web App,26,76,23,Alice,hank_cloud,False,"Cloud, Coding, MachineLearning",low
+1055,Debugging in #AI is both fun and frustrating!,2025-01-14T13:38:39,en,Twitter Web App,185,46,22,Hank,alice_dev,False,,medium
+1056,Debugging in #NLP is both fun and frustrating!,2025-05-01T03:18:38,en,Twitter for iPhone,134,44,34,Emma,bob_coder,True,"DevLife, DevLife, Startups",medium
+1057,Loving the power of #SQL in my workflow.,2025-06-29T20:03:15,en,Twitter for Android,151,71,33,Ivy,hank_cloud,False,,medium
+1058,Debugging in #NLP is both fun and frustrating!,2025-06-05T17:27:10,en,Twitter Web App,170,22,49,Hank,jake_dev,True,,medium
+1059,Debugging in #Cloud is both fun and frustrating!,2025-01-22T10:31:09,en,Twitter for Android,170,9,36,Jake,emma_ds,True,"CyberSecurity, DataScience",medium
+1060,Loving the power of #NLP in my workflow.,2025-04-15T04:22:42,en,Twitter Web App,70,70,22,Hank,alice_dev,False,,medium
+1061,Is anyone else working with #SQL today?,2025-07-02T03:05:28,en,Twitter for Android,111,34,47,Alice,alice_dev,False,Cloud,medium
+1062,Debugging in #Blockchain is both fun and frustrating!,2025-04-22T07:26:24,en,Twitter for Android,184,54,49,Emma,hank_cloud,False,"DataScience, Tech, MachineLearning",medium
+1063,Getting started with #Cloud. Any tips?,2025-03-18T09:48:03,en,Twitter for Android,37,25,4,Charlie,charlie_ai,True,,low
+1064,Best practices for using #NLP? Let's discuss.,2025-04-13T19:09:14,en,Twitter for Android,180,88,14,Bob,fay_code,True,AI,medium
+1065,Debugging in #Linux is both fun and frustrating!,2025-06-07T06:15:25,en,Twitter for iPhone,82,27,39,Alice,emma_ds,False,"CyberSecurity, Coding",medium
+1066,A deep dive into #AI.,2025-06-30T17:57:34,en,Twitter for iPhone,124,63,7,Charlie,bob_coder,True,"DataScience, Coding, DevLife",medium
+1067,Exploring the new features in #ML.,2025-05-30T20:55:17,en,Twitter for iPhone,177,62,26,Hank,ivy_nlp,True,"Startups, Cloud",medium
+1068,Loving the power of #Docker in my workflow.,2025-03-30T21:20:57,en,Twitter Web App,91,56,44,David,ivy_nlp,True,"Python, Startups",high
+1069,Here's a cool trick with #AI.,2025-04-09T07:28:54,en,Twitter Web App,160,45,14,Bob,jake_dev,False,"Startups, Cloud, CyberSecurity",medium
+1070,Just finished a project on #Python!,2025-05-11T05:49:04,en,Twitter for Android,30,64,4,Emma,bob_coder,False,"Cloud, Cloud, DevLife",medium
+1071,Just finished a project on #Cloud!,2025-06-29T20:19:38,en,Twitter for Android,114,3,8,Ivy,alice_dev,True,"Coding, Coding",medium
+1072,Loving the power of #Blockchain in my workflow.,2025-02-07T03:38:25,en,Twitter for iPhone,166,34,22,Grace,hank_cloud,False,Tech,low
+1073,Exploring the new features in #Linux.,2025-06-16T08:54:11,en,Twitter for Android,20,94,31,Fay,david_ml,True,Python,medium
+1074,Getting started with #ML. Any tips?,2025-02-05T16:41:16,en,Twitter Web App,165,100,5,Emma,ivy_nlp,False,"Cloud, Startups",medium
+1075,Loving the power of #Blockchain in my workflow.,2025-04-27T00:41:17,en,Twitter for Android,194,27,35,Hank,jake_dev,False,"CyberSecurity, DevLife",low
+1076,A deep dive into #Python.,2025-04-10T06:52:03,en,Twitter for iPhone,14,24,33,Emma,alice_dev,False,"AI, Cloud",medium
+1077,Check out my latest blog post on #SQL.,2025-03-24T22:41:49,en,Twitter Web App,135,86,17,Alice,charlie_ai,True,"Startups, CyberSecurity",medium
+1078,Is anyone else working with #Blockchain today?,2025-03-13T06:39:56,en,Twitter Web App,146,89,48,Alice,emma_ds,True,"CyberSecurity, CyberSecurity, DataScience",low
+1079,Just finished a project on #AI!,2025-03-31T16:37:53,en,Twitter Web App,126,52,1,Fay,emma_ds,True,"Startups, AI, Startups",medium
+1080,Check out my latest blog post on #Blockchain.,2025-03-04T15:32:47,en,Twitter for iPhone,140,4,48,Fay,fay_code,False,"MachineLearning, AI, Cloud",low
+1081,Best practices for using #NLP? Let's discuss.,2025-01-30T18:14:54,en,Twitter for iPhone,66,82,37,Alice,bob_coder,False,,medium
+1082,Exploring the new features in #NLP.,2025-05-06T19:12:16,en,Twitter for Android,9,69,46,Jake,jake_dev,True,"AI, Startups, Coding",medium
+1083,A deep dive into #SQL.,2025-01-13T01:40:26,en,Twitter for Android,109,91,35,Charlie,grace_net,False,"Startups, Coding, Python",medium
+1084,Check out my latest blog post on #AI.,2025-06-28T21:29:24,en,Twitter for iPhone,131,40,29,Jake,fay_code,False,"CyberSecurity, DataScience",medium
+1085,Just finished a project on #Python!,2025-01-18T08:06:31,en,Twitter Web App,199,28,45,Alice,ivy_nlp,False,"Coding, AI, Python",medium
+1086,Check out my latest blog post on #AI.,2025-04-03T11:52:20,en,Twitter for iPhone,38,85,36,Fay,david_ml,True,,medium
+1087,Debugging in #Python is both fun and frustrating!,2025-01-20T01:12:36,en,Twitter for iPhone,105,39,42,Charlie,charlie_ai,False,"CyberSecurity, Startups",medium
+1088,Just finished a project on #AI!,2025-04-17T11:42:15,en,Twitter for iPhone,47,37,42,Alice,charlie_ai,True,"Coding, Coding",medium
+1089,Getting started with #React. Any tips?,2025-04-06T07:20:00,en,Twitter for iPhone,108,15,42,Charlie,alice_dev,True,"MachineLearning, DataScience, MachineLearning",low
+1090,Debugging in #Blockchain is both fun and frustrating!,2025-02-14T20:09:45,en,Twitter for Android,81,12,8,David,emma_ds,False,Coding,medium
+1091,Debugging in #Cloud is both fun and frustrating!,2025-06-26T12:38:32,en,Twitter for iPhone,128,43,39,Alice,david_ml,False,"Cloud, Python, AI",medium
+1092,Exploring the new features in #ML.,2025-02-11T14:12:05,en,Twitter for Android,146,17,2,Alice,grace_net,False,Tech,medium
+1093,Just finished a project on #SQL!,2025-03-12T03:00:14,en,Twitter for Android,23,37,29,Bob,jake_dev,False,,medium
+1094,Is anyone else working with #Blockchain today?,2025-04-06T23:32:45,en,Twitter for Android,49,31,44,Alice,ivy_nlp,True,"Coding, DevLife, CyberSecurity",low
+1095,Loving the power of #AI in my workflow.,2025-03-13T19:24:23,en,Twitter for iPhone,11,92,45,Ivy,fay_code,True,DevLife,medium
+1096,Exploring the new features in #AI.,2025-01-21T17:40:15,en,Twitter Web App,86,11,4,Fay,jake_dev,False,"DevLife, Tech, Tech",medium
+1097,Just finished a project on #Linux!,2025-02-21T10:32:01,en,Twitter for Android,190,49,46,Ivy,bob_coder,True,Tech,medium
+1098,Here's a cool trick with #React.,2025-06-21T20:32:14,en,Twitter Web App,173,38,39,Fay,alice_dev,True,"AI, Coding, Cloud",low
+1099,Here's a cool trick with #ML.,2025-02-21T07:50:51,en,Twitter for Android,165,24,44,Emma,charlie_ai,False,Python,medium

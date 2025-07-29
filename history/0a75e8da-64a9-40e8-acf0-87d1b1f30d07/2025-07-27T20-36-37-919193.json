@@ -1,0 +1,23 @@
+{
+  "stack_score": 51.416513790979636,
+  "twitter_score": 27.866666666666667,
+  "github_score": {
+    "commit_score": 0.0,
+    "code_scores": {
+      "Logic & Flow Control": 89.0,
+      "Modularity & Reusability": 89.375,
+      "Total": 82.375,
+      "Readability & Style": 88.125,
+      "Error Handling & Robustness": 65.83500000000001,
+      "Efficiency & Optimization": 73.75
+    },
+    "repo_greatness": {
+      "avg_greatness": 9511.8,
+      "repo_greatness": 0
+    }
+  },
+  "personality_score": {
+    "text_confidence": 100.0,
+    "video_confidence": 12.5
+  }
+}
