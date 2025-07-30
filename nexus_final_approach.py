@@ -54,7 +54,7 @@ from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 from openai import OpenAI
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="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")
 
 main_path = ""
 
@@ -491,11 +491,16 @@ def final_process(Inputs):
   headers = {
           "Authorization": f"token {Inputs['GITHUB_TOKEN']}"
       }
+  stack_score = get_stack_score(Inputs)
+  twitter_score = get_twitter_score(Inputs)
+  github_score = github_scoring_ops(Inputs,headers,AUTH)
+  personality_score = get_personlty_score()
   return {
-      'stack_score': get_stack_score(Inputs),
-      'twitter_score': get_twitter_score(Inputs),
-      'github_score': github_scoring_ops(Inputs,headers,AUTH),
-      'personality_score': get_personlty_score()
+      'stack_score': stack_score,
+      'twitter_score': twitter_score,
+      'github_score': github_score,
+      'personality_score': personality_score,
+      'overall_score': float((stack_score * 30 + twitter_score * 20 + github_score['final_score'] * 30 + personality_score['final_confidence'] * 20) / 100)
   }
 
 # final_process()
