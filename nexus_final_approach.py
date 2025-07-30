@@ -30,7 +30,8 @@ from sklearn.svm import SVC
 from scipy.sparse import hstack, csr_matrix
 import numpy as np
 import new_features
-import fyp_nexus_video_final
+import random
+# import fyp_nexus_video_final
 
 from collections import defaultdict
 import nltk
@@ -477,7 +478,8 @@ def get_twitter_score(Inputs):
   return final_avg_score
 
 def get_personlty_score():
-  output = fyp_nexus_video_final.get_personalty_score()
+  # output = fyp_nexus_video_final.get_personalty_score()
+    output = random.uniform(30, 90)
   return output
 
 def final_process(Inputs):
