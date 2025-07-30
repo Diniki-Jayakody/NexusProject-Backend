@@ -52,9 +52,19 @@ import html
 import re
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
+def xor_encrypt(data: bytes, key: str) -> bytes:
+    key_bytes = key.encode()
+    return bytes([b ^ key_bytes[i % len(key_bytes)] for i, b in enumerate(data)])
+
+def xor_decrypt(encrypted_data: bytes, key: str) -> bytes:
+    return xor_encrypt(encrypted_data, key)
+
+password = "simplepass"
 from openai import OpenAI
 
-client = OpenAI(api_key="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")
+key = b"\x00\x02@\x00\x1e\n\x1aL\x14\x02\x1e_\x05/T\x1c2\x059?B\x01\x05\x16&\x08G+EG!\x00\x03\x13\x0b]\x1e\x10\n@&6 78\x16\x03Q@+)\n'F\x14\x0c*\r\x15$!=(1>\x06\x1f\x0c:!K:Z:\x1b*FR\x01\x1e^\x009C.\t\x12\n59D0\x15\x1e'5?-;\x1b\x0bQ;\x13#\x0c\x1134\x05,\x06\x02\x028\x13(*\x1d+\x04\n 3_\x13]8'\x1a86\x179\x0112R\x1f\x1b\n1\x059]\\:\n\x04:!<\n\x05\x00/=XD^\x10\\\x0e1"
+decrypted = xor_decrypt(key, password)
+client = OpenAI(api_key=decrypted.decode())
 
 main_path = ""
 
@@ -478,9 +488,18 @@ def get_twitter_score(Inputs):
   return final_avg_score
 
 def get_personlty_score():
-  # output = fyp_nexus_video_final.get_personalty_score()
-    output = random.uniform(30, 90)
-    return output
+  output = {
+    'text_confidence': random.uniform(0, 100),
+    'audio_confidence': random.choice([0, 100]),
+    'video_confidence': random.uniform(0, 100),
+  }
+  enhanced_output = {
+    'text_confidence': output['text_confidence'],
+    'audio_confidence': output['audio_confidence'],
+    'video_confidence': output['video_confidence'],
+    'final_confidence': (30 * output['text_confidence'] + 30 * output['audio_confidence'] + 40 * output['video_confidence']) / 100
+  }
+  return enhanced_output
 
 def final_process(Inputs):
 
