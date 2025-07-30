@@ -480,7 +480,7 @@ def get_twitter_score(Inputs):
 def get_personlty_score():
   # output = fyp_nexus_video_final.get_personalty_score()
     output = random.uniform(30, 90)
-  return output
+    return output
 
 def final_process(Inputs):
 
