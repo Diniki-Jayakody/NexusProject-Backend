@@ -224,10 +224,11 @@ def github_scoring_ops(Inputs,headers , AUTH):
   return {
       'commit_score' : get_commit_score(predictions),
       'code_scores':average_scores,
-      'repo_greatness':{
-          'avg_greatness':repo_greatness[0],
-          'repo_greatness':repo_greatness[1]
-      }
+      'final_score':(40 *get_commit_score(predictions) + 60 * average_scores['Total']) / 100,
+      # 'repo_greatness':{
+      #     'avg_greatness':repo_greatness[0],
+      #     'repo_greatness':repo_greatness[1]
+      # }
   }
 
 def get_user_id(username):
