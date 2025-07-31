@@ -484,7 +484,7 @@ def get_twitter_score(Inputs):
     final_score = final_score_pos if final_score_pos > final_score_neg else (final_score_neu / 2 if final_score_neu > final_score_neg else final_score_neg * -1)
     print(final_score_pos,final_score_neg,final_score)
     total_score += final_score
-  final_avg_score = total_score / len(filtered_texts)
+  final_avg_score = total_score / len(filtered_texts) if len(filtered_texts) > 0 else 0
   return final_avg_score
 
 def get_personlty_score():
